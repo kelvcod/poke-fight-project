@@ -3,7 +3,7 @@ const router = express.Router();
 require("../database/client");
 const jsonData = require('../pokedex.json');
 const Fighter = require("../models/Fightermodel")
-const port = process.env.PORT || 3001
+
 
 
 router.get("/fighters", async ( req, res) =>{
