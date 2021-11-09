@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node fighter.js",
-    "dev": "nodemon ./bin/www"
+    "dev": "node fighter.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
