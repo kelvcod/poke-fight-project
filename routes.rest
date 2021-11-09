@@ -1,0 +1,13 @@
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/fighters
+
+
+###
+GET http://localhost:3000/fighters/2
+
+
+###
+GET http://localhost:3000/fighters/2/base
+
