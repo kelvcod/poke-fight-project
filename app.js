@@ -10,7 +10,7 @@ const fighterRouter = require('./routes/fighter');
 const usersRouter = require('./routes/users');
 
 const app = express();
-const port = process.env.PORT || 3000
+
 
 
 
