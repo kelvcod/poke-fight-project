@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 require("../database/client");
 const jsonData = require('../pokedex.json');
-const Fighter = require("../models/Fightermodel")
+const Fighter = require("../models/fightermodel")
 
 
 
