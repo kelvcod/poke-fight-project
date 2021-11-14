@@ -3,9 +3,11 @@ const router = express.Router();
 require("../database/client");
 const jsonData = require('../pokedex.json');
 const Fighter = require("../models/fightermodel")
+const cors = require("cors")
 
 
 
+router.use(cors()); //Allowing cors for all origins
 router.get("/fighters", async ( req, res) =>{
 
   try{

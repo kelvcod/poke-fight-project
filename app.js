@@ -9,9 +9,9 @@ const logger = require('morgan');
 const fighterRouter = require('./routes/fighter');
 const usersRouter = require('./routes/users');
 
+
 const port = process.env.PORT || 3001
 const app = express();
-
 
 
 
