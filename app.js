@@ -23,6 +23,7 @@ var config = {
 const port = process.env.PORT || 3001
 const app = express();
 
+console.log()
 
 app.use(cors())
 app.use(logger('dev'));
