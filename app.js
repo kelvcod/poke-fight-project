@@ -10,7 +10,7 @@ const logger = require('morgan');
 const fighterRouter = require('./routes/fighter');
 const usersRouter = require('./routes/users');
 
-const config = {
+var config = {
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
