@@ -6,6 +6,8 @@ const Fighter = require("../models/fightermodel")
 
 
 
+
+
 router.get("/fighters", async ( req, res) =>{
 
   try{
